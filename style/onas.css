@@ -1,0 +1,99 @@
+.start-background{
+    height: 50vh;
+    background-image: url("../images/onas.jpg");
+}
+
+.main-section-title{
+    visibility: visible;
+}
+
+.suggestions-section{
+    height: max-content;
+    padding-bottom: 50px;
+}
+
+.suggestions{
+    height: auto;
+}
+
+.suggestions-section-cnt:first-of-type{
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.2);
+    height: 50%;
+    width: 75%;
+    margin: 0 auto 50px auto;
+    padding: 50px;
+    text-align: right;
+}
+
+.suggestions-section-cnt{
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.2);
+    height: 50%;
+    width: 75%;
+    margin: 0 auto 50px auto;
+    padding: 50px;
+    padding-right: 10vw;
+    text-align: left;
+}
+
+.span-img{
+    width: 100%;
+}
+
+.span-img2{
+    text-align: center;
+    width: 100%;
+}
+
+.span-img2 img{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suggestions-section-cnt:nth-of-type(3){
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.2);
+    height: 50%;
+    width: 75%;
+    margin: 0 auto 50px auto;
+    padding: 50px;
+    text-align: left;
+}
+
+.suggestions-section h2{
+    margin-bottom: 35px;
+}
+
+.span-cnt{
+    width: 90%;
+}
+
+.suggestions-section-cnt .span-img img{
+    width: 60%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    flex-basis: auto;
+}
+@media only screen and (max-width: 1000px) {
+    .suggestions-section{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .suggestions-section-cnt{
+        padding:25px;
+    }
+
+    .span-img{
+        visibility: hidden;
+    }
+
+    .suggestions-section-cnt:first-of-type{
+        margin: 0 auto 50px auto;
+        padding: 25px;
+    }
+
+}
